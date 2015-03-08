@@ -62,9 +62,9 @@ $(document).ready(function() {
 	$(function() {
 		$("#title, #date, #logowrapper, #buybutton, #location").anima({y: 0, opacity: 0});
 
-		$("#logowrapper").anima({y: 0, opacity: 1}, 1000);
+		$("#logowrapper").delayAnima(400).anima({y: 0, opacity: 1}, 1000);
 		
-		$("#title").delayAnima(800).anima({y:0, opacity: 1}, 800, {complete: function() {
+		$("#title").delayAnima(1000).anima({y:0, opacity: 1}, 800, {complete: function() {
 			$("#location").anima({opacity: 1}, 1000)
 			$("#date").delayAnima(1000).anima({opacity: 1}, 500);
 			$("#buybutton").delayAnima(2000).anima({opacity: 1}, 500);
