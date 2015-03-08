@@ -40,7 +40,7 @@ $(document).ready(function() {
         verticalCentered: true,
         resize : false,
         sectionsColor : ['rgba(30, 30, 30, 1)'],
-        paddingTop: '3em',
+        // paddingTop: '3em',
         paddingBottom: '10px',
         fixedElements: '#header, .footer',
         responsive: 0,
@@ -58,6 +58,10 @@ $(document).ready(function() {
         onSlideLeave: function(anchorLink, index, slideIndex, direction){}
     });
 	
+
+	$(function() {
+
+	});
 
 
 
