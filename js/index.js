@@ -38,7 +38,7 @@ $(document).ready(function() {
         //Design
         controlArrows: true,
         verticalCentered: true,
-        resize : false,
+        resize : true,
         sectionsColor : ['rgba(30, 30, 30, 1)'],
         paddingTop: '3em',
         paddingBottom: '2em',
