@@ -60,7 +60,15 @@ $(document).ready(function() {
 	
 
 	$(function() {
+		$("#title, #date, #logowrapper").anima({y: 100, opacity: 0});
+		$("#logowrapper, #buybutton").anima({y: 0, opacity: 0});
 
+		$("#logowrapper").anima({y: 0, opacity: 1}, 1000);
+		
+		$("#title, #date").delayAnima(1000).anima({y:0, opacity: 1}, 800, {complete: function() {
+			$("#buybutton").anima({opacity: 1}, 500);
+		}});
+		// $("#title, #date, #logowrapper").anima({y: 0, opacity: 1}, 1000);
 	});
 
 
