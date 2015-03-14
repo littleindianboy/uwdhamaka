@@ -44,3 +44,15 @@ h1 {
 #title {
 	color: rgba(220, 220, 220, 1);
 }
+
+#socialmedia {
+	float: right;
+	margin-top: 20px;
+}
+
+
+.socialimg {
+	margin-right: 10px;
+	float: right;
+	height: 50px;
+}
