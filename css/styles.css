@@ -31,11 +31,7 @@ h1 {
 	font-size: 16pt;
 	padding-top: 17px;
 	background-color: rgba(80, 65, 100, .7);
-<<<<<<< HEAD
 	border-radius: 200px;
-=======
-	border-radius: 30px;
->>>>>>> master
 	color: rgba(240, 240, 240, 1);
 	text-align: center;
 }
@@ -45,7 +41,6 @@ h1 {
 	background-color: rgba(80, 65, 100, 1);
 }
 
-<<<<<<< HEAD
 #title {
 	color: rgba(220, 220, 220, 1);
 }
@@ -60,8 +55,4 @@ h1 {
 	margin-right: 10px;
 	float: right;
 	height: 50px;
-=======
-#logowrapper {
-	
->>>>>>> master
 }
