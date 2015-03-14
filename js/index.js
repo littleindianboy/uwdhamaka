@@ -17,7 +17,11 @@ $(document).ready(function() {
         css3: false,
         scrollingSpeed: 700,
         autoScrolling: false,
+<<<<<<< HEAD
         fitToSection: false,
+=======
+        fitToSection: true,
+>>>>>>> master
         scrollBar: false,
         easing: 'easeInOutCubic',
         easingcss3: 'ease',
@@ -38,16 +42,24 @@ $(document).ready(function() {
         //Design
         controlArrows: true,
         verticalCentered: true,
+<<<<<<< HEAD
         resize : true,
         sectionsColor : ['rgba(30, 30, 30, 1)'],
         // paddingTop: '3em',
         paddingBottom: '2em',
+=======
+        resize : false,
+        sectionsColor : ['rgba(30, 30, 30, 1)'],
+        // paddingTop: '3em',
+        paddingBottom: '10px',
+>>>>>>> master
         fixedElements: '#header, .footer',
         responsive: 0,
 
         //Custom selectors
         sectionSelector: '.section',
         slideSelector: '.slide',
+<<<<<<< HEAD
     });
 	
 
@@ -65,6 +77,19 @@ $(document).ready(function() {
 		// $("#title, #date, #logowrapper").anima({y: 0, opacity: 1}, 1000);
 	});
 
+=======
+
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction){}
+    });
+	
+
+>>>>>>> master
 
 
 
