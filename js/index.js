@@ -14,7 +14,7 @@ $(document).ready(function() {
 			$("#tickets").delayAnima(1000).anima({opacity: 1}, 500);
             $("#socialmedia").delayAnima(1500).anima({opacity: 1}, 500);
 		}});
-		
+		// $("#title, #date, #logowrapper").anima({y: 0, opacity: 1}, 1000);
 	});
 
 
